@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>http.agent.name</name>
+  <value>Crawlbot</value>
+</property>
+
+<property>
+  <name>generate.max.count</name>
+  <value>100</value>
+</property>
+
+<property>
+  <name>generate.count.mode</name>
+  <value>domain</value>
+</property>
+
+<property>
+  <name>partition.url.mode</name>
+  <value>byDomain</value>
+</property>
+
+<property>
+  <name>fetcher.store.content</name>
+  <value>true</value>
+</property>
+
+<property>
+  <name>fetcher.store.robotstxt</name>
+  <value>true</value>  
+</property>
+
+
+</configuration>
